@@ -1,0 +1,12 @@
+
+## Load Directory
+dataset_path: 2011_09_26_drive_0117_sync
+left_image_rgb_path: ${dataset_path}/image_02/data/
+right_image_rgb_path: ${dataset_path}/image_03/data/
+
+calib: ${dataset_path}/2011_09_26/calib_cam_to_cam.txt
+
+## Save Directory
+match_dir: matches/
+map_dir: map/
+trajectory_path: trajectory_path.png
