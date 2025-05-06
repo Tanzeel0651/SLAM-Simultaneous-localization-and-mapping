@@ -2,7 +2,7 @@
 
 This project implements a **feature-based stereo Visual Odometry (VO)** system tailored for the [KITTI dataset](http://www.cvlibs.net/datasets/kitti/). It estimates vehicle motion from synchronized stereo images and reconstructs the camera trajectory and a sparse 3D map of the environment.
 
-![Trajectory](trajectory_path.png)
+![Trajectory](map/638.png)
 
 ---
 
@@ -67,8 +67,8 @@ SLAM/
 
 | Visualization | Description |
 |---------------|-------------|
-| ![Map Frame](638.png) | Top-down sparse map with trajectory at frame 638 |
-| ![ORB Matches](658-658.png) | Stereo ORB feature matching |
+| ![Map Frame](map/638.png) | Top-down sparse map with trajectory at frame 638 |
+| ![ORB Matches](matches/658-658.png) | Stereo ORB feature matching |
 | ![Trajectory](trajectory_path.png) | 3D vehicle trajectory |
 
 ---
